@@ -1,0 +1,25 @@
+{
+  "version": "0.1.0",
+  "description": "A desktop library for game assets, with their licences and sources on record",
+  "homepage": "https://github.com/ahmmedrejowan/tessera",
+  "license": "GPL-3.0-or-later",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/ahmmedrejowan/tessera/releases/download/v0.1.0/Tessera-0.1.0-win-x64.zip"
+    },
+    "arm64": {
+      "url": "https://github.com/ahmmedrejowan/tessera/releases/download/v0.1.0/Tessera-0.1.0-win-arm64.zip"
+    }
+  },
+  "bin": "Tessera.exe",
+  "shortcuts": [["Tessera.exe", "Tessera"]],
+  "checkver": { "github": "https://github.com/ahmmedrejowan/tessera" },
+  "autoupdate": {
+    "architecture": {
+      "64bit": { "url": "https://github.com/ahmmedrejowan/tessera/releases/download/v$version/Tessera-$version-win-x64.zip" },
+      "arm64": { "url": "https://github.com/ahmmedrejowan/tessera/releases/download/v$version/Tessera-$version-win-arm64.zip" }
+    },
+    "hash": { "url": "https://github.com/ahmmedrejowan/tessera/releases/download/v$version/SHA256SUMS-Windows.txt" }
+  },
+  "notes": "Windows may warn that it protected your PC the first time. Choose More info, then Run anyway."
+}
