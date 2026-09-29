@@ -1,16 +1,16 @@
 {
-  "version": "0.2.0",
+  "version": "1.0.0",
   "description": "Desktop library for game assets, with their licenses and sources on record",
   "homepage": "https://github.com/ahmmedrejowan/tessera",
   "license": "GPL-3.0-or-later",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/ahmmedrejowan/tessera/releases/download/v0.2.0/Tessera-0.2.0-win-x64.zip",
-      "hash": "d768d4c2d5afd63020256cd4e06d8af0b5533b6671c0a2c2782ea780581e7f3c"
+      "url": "https://github.com/ahmmedrejowan/tessera/releases/download/v1.0.0/Tessera-1.0.0-win-x64.zip",
+      "hash": "6f21ec0922e355ee843cf72b47109750bc6fd487907b1096095e9dc3026de7cc"
     },
     "arm64": {
-      "url": "https://github.com/ahmmedrejowan/tessera/releases/download/v0.2.0/Tessera-0.2.0-win-arm64.zip",
-      "hash": "18e1c3d00c29a9096ae71f6f0e1bbde709fd4eb0cc461aa87d409d9a07dc37d6"
+      "url": "https://github.com/ahmmedrejowan/tessera/releases/download/v1.0.0/Tessera-1.0.0-win-arm64.zip",
+      "hash": "b7aa0cbb13d50345c0a534f11cd7432cfb588f4d222f026299f575a4ab9fecac"
     }
   },
   "bin": "Tessera.exe",
